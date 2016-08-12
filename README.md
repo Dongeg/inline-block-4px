@@ -15,6 +15,7 @@ inline-block 元素之间4像素空隙解决方案
 
         ul{
           font-size:0;
+          //修改默认间隔
           letter-spacing:-4px; /*实际情况下 -4这个值可能还要调整*/
           word-spacing:-4px;   /*实际情况下 -4这个值可能还要调整*/   
         }
@@ -22,6 +23,7 @@ inline-block 元素之间4像素空隙解决方案
           display:inline-bolck;
           zoom:1;
           font-size:12px;
+          //恢复默认间隔
           letter-spacing:normal;
           word-spacing:normal;
         }
